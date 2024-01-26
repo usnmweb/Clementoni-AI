@@ -3,23 +3,67 @@
   padding: 0;
 }
 
+:root {
+  --arancione: #e2634c;
+  --blu: #1d4ebb;
+}
+
+header {
+  width: 100vw;
+  height: auto;
+  overflow: hidden;
+}
+
 header nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--blu);
+  height: 10vh;
+  color: var(--arancione);
+  box-shadow: inset 0 -4px 3px black;
+  overflow: hidden;
+}
 
-  background-color: rgb(106, 106, 255);
-  width: 100vw;
-  height: 15vh;
+header nav div {
+  padding: 2rem;
+}
+
+.a {
+  background-color: white;
+}
+
+.b {
+  background-color: white;
+  overflow: hidden;
+}
+
+.b img {
+  width: 100%;
+  height: 100%;
+}
+
+.c {
+  background-color: white;
+}
+
+.c li {
+  list-style: none;
+}
+
+main {
+  background-image: url(/Img/immagini\ pattern\ giochi_jpg.jpg);
+
+  background-repeat: repeat;
 }
 
 main div {
-  background-color: rgb(246, 165, 165);
   width: 100vw;
-  height: 70vh;
+  height: 80vh;
 }
 
 Footer div {
-  background-color: rgb(106, 106, 255);
+  background-color: var(--blu);
   width: 100vw;
-  height: 15vh;
+  height: 10vh;
 }
