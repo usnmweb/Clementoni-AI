@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+
+  background-color: rgb(106, 106, 255);
+  width: 100vw;
+  height: 15vh;
+}
+
+main div {
+  background-color: rgb(246, 165, 165);
+  width: 100vw;
+  height: 70vh;
+}
+
+Footer div {
+  background-color: rgb(106, 106, 255);
+  width: 100vw;
+  height: 15vh;
+}
